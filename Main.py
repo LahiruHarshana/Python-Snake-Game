@@ -17,7 +17,7 @@ class Food:
 
     def __int__(self):
 
-        x=random
+        x=random.randint()
 
 def next_turn():
     pass
