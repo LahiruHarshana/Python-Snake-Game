@@ -98,8 +98,9 @@ def change_direction(new_direction):
             direction = new_direction
 
 
-def check_collisions():
-    pass
+def check_collisions(snake):
+
+    x, y = snake.coordinates[0]
 
 def game_over():
     pass
