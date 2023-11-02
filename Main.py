@@ -33,5 +33,7 @@ window.title("Snake Game")
 window.resizable(False,False)
 
 score = 0
+direction ='down'
+
 
 window.mainloop()
