@@ -38,5 +38,7 @@ direction ='down'
 lable = Label(window, text="score:{}".format(score),font= ('consolas',40))
 lable.pack()
 
+canvas = Canvas(window, bg=BACKGROUND_COLOR)
+
 
 window.mainloop()
