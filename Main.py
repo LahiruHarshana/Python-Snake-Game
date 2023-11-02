@@ -17,7 +17,7 @@ class Food:
 
     def __int__(self):
 
-        x=random.randint()
+        x=random.randint(0,(GAME_WIDTH/SPACE_SIZE)-1)
 
 def next_turn():
     pass
