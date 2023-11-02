@@ -48,6 +48,7 @@ screen_width =window.winfo_screenwidth()
 screen_height =window.winfo_screenheight()
 
 
-x = (screen_width/2) -
+x = (screen_width/2) -(window_width/2)
+y =
 
 window.mainloop()
