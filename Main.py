@@ -14,3 +14,4 @@ def change_direction():
     pass
 
 def check_collisions():
+    pass
