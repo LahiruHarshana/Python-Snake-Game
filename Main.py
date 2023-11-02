@@ -14,7 +14,10 @@ class Snake:
     pass
 
 class Food:
-    pass
+
+    def __int__(self):
+
+        x=random
 
 def next_turn():
     pass
