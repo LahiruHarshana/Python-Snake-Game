@@ -48,6 +48,14 @@ def next_turn(snake, food):
     elif direction == "right":
         x += SPACE_SIZE
 
+    snake.coordinates.insert(0, (x, y))
+
+    square = canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR)
+
+    snake.squares.insert(0, square)
+
+
+
 def change_direction(new_direction):
     pass
 
