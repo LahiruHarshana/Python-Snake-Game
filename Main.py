@@ -12,3 +12,5 @@ def next_turn():
 
 def change_direction():
     pass
+
+def check_collisions():
