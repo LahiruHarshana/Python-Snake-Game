@@ -35,5 +35,7 @@ window.resizable(False,False)
 score = 0
 direction ='down'
 
+lable = Label(window, text="score")
+
 
 window.mainloop()
