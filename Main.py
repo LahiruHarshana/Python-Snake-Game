@@ -1,6 +1,8 @@
 from tkinter import *
 import random
 
+GAME_WIDTH = 700
+
 class Snake:
     pass
 
