@@ -43,6 +43,6 @@ canvas.pack()
 
 window.update()
 window_width= window.winfo_width()
-
+window_height =
 
 window.mainloop()
