@@ -24,7 +24,7 @@ class Food:
 
         self.coordinates = [x,y]
 
-        canvas.create_oval(x,y,x + SPACE_SIZE,y+SPACE_SIZE, fill=FOOD_COLOR)
+        canvas.create_oval(x,y,x + SPACE_SIZE,y+SPACE_SIZE, fill=FOOD_COLOR , tags="foods")
 
 
 
