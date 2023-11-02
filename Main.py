@@ -21,7 +21,7 @@ class Food:
         y=random.randint(0,(GAME_HEIGHT/SPACE_SIZE)-1) *SPACE_SIZE
 
 
-        self.coordinates = []
+        self.coordinates = [x,y]
 
 
 
