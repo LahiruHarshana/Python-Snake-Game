@@ -36,6 +36,7 @@ score = 0
 direction ='down'
 
 lable = Label(window, text="score:{}".format(score),font= ('consolas',40))
+lable.pack()
 
 
 window.mainloop()
