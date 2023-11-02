@@ -6,7 +6,8 @@ GAME_HEIGHT = 700
 SPEED = 50
 SPACE_SIZE = 3
 BODY_PARTS = 3
-SNAKE_COLOR = ""
+SNAKE_COLOR = "#FF000"
+
 
 
 class Snake:
