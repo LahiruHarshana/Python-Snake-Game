@@ -10,7 +10,7 @@ class Food:
 def next_turn():
     pass
 
-def change_direction():
+def change_direction(new direction):
     pass
 
 def check_collisions():
