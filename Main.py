@@ -16,16 +16,13 @@ class Snake:
 
 class Food:
 
-    def __int__(self):
+    def __init__(self):
+        x = random.randint(0, (GAME_WIDTH // SPACE_SIZE) - 1) * SPACE_SIZE
+        y = random.randint(0, (GAME_HEIGHT // SPACE_SIZE) - 1) * SPACE_SIZE
 
-        x=random.randint(0,(GAME_WIDTH/SPACE_SIZE)-1) *SPACE_SIZE
-        y=random.randint(0,(GAME_HEIGHT/SPACE_SIZE)-1) *SPACE_SIZE
+        self.coordinates = [x, y]
 
-
-        self.coordinates = [x,y]
-
-        canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR , tags="food")
-
+        canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
 def next_turn():
     pass
 
