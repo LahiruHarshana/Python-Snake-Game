@@ -12,7 +12,8 @@ BACKGROUND_COLOR = "#000000"
 
 
 class Snake:
-    pass
+
+    def __init__(self):
 
 class Food:
 
