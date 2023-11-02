@@ -89,6 +89,8 @@ def change_direction(new_direction):
             direction = new_direction
     elif new_direction == 'right':
         if direction != 'left':
+            direction = new_direction
+    elif new_direction == 'up':
 
 
 
