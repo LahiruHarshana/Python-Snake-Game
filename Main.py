@@ -4,9 +4,9 @@ import random
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
 SPEED = 50
-SPACE_SIZE = 3
+SPACE_SIZE = 50
 BODY_PARTS = 3
-SNAKE_COLOR = "#00FF000"
+SNAKE_COLOR = "#00FF00"
 FOOD_COLOR = "#FF0000"
 BACKGROUND_COLOR = "#000000"
 
@@ -25,15 +25,18 @@ class Snake:
             square = canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR, tag="snake")
             self.squares.append(square)
 
+
 class Food:
 
     def __init__(self):
-        x = random.randint(0, (GAME_WIDTH // SPACE_SIZE) - 1) * SPACE_SIZE
+
+        x = random.randint(0, (GAME_WIDTH // SPACE_SIZE)-1) * SPACE_SIZE
         y = random.randint(0, (GAME_HEIGHT // SPACE_SIZE) - 1) * SPACE_SIZE
 
         self.coordinates = [x, y]
 
         canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
+
 
 def next_turn(snake, food):
 
@@ -80,6 +83,7 @@ def next_turn(snake, food):
     else:
         window.after(SPEED, next_turn, snake, food)
 
+
 def change_direction(new_direction):
 
     global direction
@@ -113,11 +117,13 @@ def check_collisions(snake):
 
     return False
 
+
 def game_over():
 
     canvas.delete(ALL)
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
                        font=('consolas',70), text="GAME OVER", fill="red", tag="gameover")
+
 
 window = Tk()
 window.title("Snake game")
