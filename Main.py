@@ -32,5 +32,6 @@ window = Tk()
 window.title("Snake Game")
 window.resizable(False,False)
 
+score = 0
 
 window.mainloop()
