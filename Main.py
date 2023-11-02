@@ -23,6 +23,8 @@ class Food:
 
         self.coordinates = [x,y]
 
+        canvas.create_oval()
+
 
 
 def next_turn():
