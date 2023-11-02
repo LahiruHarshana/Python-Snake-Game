@@ -9,3 +9,6 @@ class Food:
 
 def next_turn():
     pass
+
+def change_direction():
+    pass
