@@ -23,7 +23,7 @@ class Food:
 
         self.coordinates = [x,y]
 
-        canvas.create_oval(x,y,x)
+        canvas.create_oval(x,y,x + SPACE_SIZE)
 
 
 
