@@ -54,5 +54,6 @@ y =int((screen_height/2) - (window_height/2))
 window.geometry(f"{window_width}x{window_height}+{x}+{y}")
 
 snake = Snake()
+food = Food()
 
 window.mainloop()
