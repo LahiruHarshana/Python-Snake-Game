@@ -6,3 +6,6 @@ class Snake:
 
 class Food:
     pass
+
+def next_turn():
+    pass
