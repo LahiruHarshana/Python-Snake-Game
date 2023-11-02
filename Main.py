@@ -81,7 +81,11 @@ def next_turn(snake, food):
         window.after(SPEED, next_turn, snake, food)
 
 def change_direction(new_direction):
-    pass
+
+    global direction
+
+    if new_direction == 'left':
+
 
 def check_collisions():
     pass
