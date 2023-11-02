@@ -104,6 +104,8 @@ def check_collisions(snake):
 
     if x < 0 or x >= GAME_WIDTH:
         return True
+    elif y < 0 or y >= GAME_HEIGHT:
+        return True
 
 def game_over():
     pass
