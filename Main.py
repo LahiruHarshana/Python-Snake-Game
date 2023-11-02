@@ -6,7 +6,7 @@ GAME_HEIGHT = 700
 SPEED = 50
 SPACE_SIZE = 3
 BODY_PARTS = 3
-SNAKE_COLOR = "#FF000"
+SNAKE_COLOR = "#00FF000"
 FOOD_COLOR = "#FF0000"
 BACKGROUND_COLOR = "#000000"
 
@@ -24,9 +24,7 @@ class Food:
 
         self.coordinates = [x,y]
 
-        canvas.create_oval(x,y,x + SPACE_SIZE,y+SPACE_SIZE, fill=FOOD_COLOR , tags="food")
-
-
+        canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR , tags="food")
 
 def next_turn():
     pass
