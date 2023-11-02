@@ -42,6 +42,6 @@ canvas = Canvas(window, bg=BACKGROUND_COLOR,height=GAME_HEIGHT,width=GAME_WIDTH)
 canvas.pack()
 
 window.update()
-
+window_width= window.winfo_width()
 
 window.mainloop()
