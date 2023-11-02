@@ -29,3 +29,6 @@ def game_over():
     pass
 
 window = Tk()
+
+
+window.mainloop()
