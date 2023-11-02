@@ -29,6 +29,7 @@ def game_over():
     pass
 
 window = Tk()
+window.title("Snake Game")
 
 
 window.mainloop()
