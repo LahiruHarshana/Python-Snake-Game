@@ -114,7 +114,9 @@ def check_collisions(snake):
     return False
 
 def game_over():
-    pass
+
+    canvas.delete(ALL)
+
 
 window = Tk()
 window.title("Snake Game")
