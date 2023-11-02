@@ -14,6 +14,10 @@ BACKGROUND_COLOR = "#000000"
 class Snake:
 
     def __init__(self):
+        self.body_size = BODY_PARTS
+        self.coordinates = []
+        self.squares = []
+
 
 class Food:
 
