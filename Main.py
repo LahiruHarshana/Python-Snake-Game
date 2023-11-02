@@ -18,6 +18,10 @@ class Snake:
         self.coordinates = []
         self.squares = []
 
+        for i in range(0, BODY_PARTS):
+            self.coordinates.append([0, 0])
+
+
 
 class Food:
 
