@@ -5,7 +5,7 @@ GAME_WIDTH = 700
 GAME_HEIGHT = 700
 SPEED = 50
 SPACE_SIZE = 3
-
+BODY_PARTS = 3
 
 
 class Snake:
